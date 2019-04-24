@@ -1,0 +1,32 @@
+{
+  "name": "react-native-greek-text",
+  "version": "1.0.0",
+  "description": "This is a lightweight component that supports greek uppercase letter by fixing the toning issue when using toUppercase() or css text-transform: uppercase",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "greek",
+    "text-uppercase",
+    "toning",
+    "toUppercase"
+  ],
+    "peerDependencies": {
+    "react": "^16.0.0-beta.5",
+    "react-native": "^0.49.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seamlessDigital/react-native-greek-text.git"
+  },
+  "author": "seamlessdigital",
+  "license": "MIT"
+}

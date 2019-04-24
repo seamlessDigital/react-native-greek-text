@@ -1,0 +1,27 @@
+Installation: npm install react-native-greek-text
+
+Usage: 
+  
+  import CustomText from 'react-native-greek-text';
+
+  <CustomText>
+    Your text
+  </CustomText>
+
+  You can also add styles like so: 
+
+  <CustomText style={{fontSize: 25, textAlign: 'center'}}>
+    Your text
+  </CustomText>
+
+  If you have an icon nested inside a text component, you can use it like so:
+
+<TextCustom 
+    hasIcon={true}
+    iconName="ios-arrow-forward"
+    iconColor="#888"
+    style={{fontFamily: Fonts.AvenirLTStdMedium, fontSize: 14, paddingTop: 5, paddingLeft: 10, color: '#000'}}>
+      {strings.change.toUpperCase()} 
+</TextCustom>
+
+*Icons only work with react-native-vector-icons.
